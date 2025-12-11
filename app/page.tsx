@@ -1,12 +1,13 @@
-import { Spinner } from "@/components/ui/spinner"
 
-export default function SpinnerSize() {
+import { Spinner } from "@/components/ui/spinner"
+export function SpinnerColor() {
   return (
     <div className="flex items-center gap-6">
-      <Spinner className="size-3" />
-      <Spinner className="size-4" />
-      <Spinner className="size-6" />
-      <Spinner className="size-8" />
+      <Spinner className="size-6 text-red-500" />
+      <Spinner className="size-6 text-green-500" />
+      <Spinner className="size-6 text-blue-500" />
+      <Spinner className="size-6 text-yellow-500" />
+      <Spinner className="size-6 text-purple-500" />
     </div>
   )
 }
